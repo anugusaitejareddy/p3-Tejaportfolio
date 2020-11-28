@@ -6,7 +6,6 @@
    box-sizing: border-box; 
 }
 body{
-    background-color: ;
     font-family: 'Roboto', sans-serif;
 }
 a{
@@ -18,7 +17,7 @@ nav{
     height: 15vh;
     width: 50%;
     margin:  auto;
-    background-color: #FFE700;
+    background-color:#020842f1;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -28,10 +27,9 @@ nav h3{
     left: 10px;
     font-size: 24px;
     font-weight: 900;
-    color: #020842f1;
+    color: #FFE700;
 }
 nav ul{
-    width: auto;
     position: relative;
     top: 45px;
     left: 420px;
@@ -40,13 +38,13 @@ nav ul li{
     display: inline;
     text-transform: uppercase;
     list-style: none;
-    padding-right: 2rem;
+    margin-right: 2rem;
     font-size: 16px;
     font-weight: 500;
 }
 nav ul li a{
     text-decoration: none;
-    color: #020842f1;
+    color: #FFE700;
     font-weight: bolder;
 }
 .active{

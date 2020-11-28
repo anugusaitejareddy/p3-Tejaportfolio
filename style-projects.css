@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #020842f1;
+    width: 50%;
+    margin: auto;
+    height: 15vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+nav h3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFE700;
+}
+nav ul{
+    position: relative;
+    top: 45px;
+    left: 400px;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+}
+nav li a{
+    text-transform: uppercase;
+    color: #FFE700;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;   
+}
+.active{
+    text-decoration: underline;
+}
+main {
+    width: 50%;
+    margin: 1rem auto;   
+}
+main img{
+    width: 100%;
+}
+.projects-list ul{
+    width: 100%;
+    margin: 2rem auto;
+}
+.projects-list li{
+    list-style: none;
+}
+.project{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.project h2{
+    margin-bottom: 1rem;
+}
+.project small{
+    display: inline-block;
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+.project p{
+    margin-bottom: 2%;
+    
+}
+.project a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 10px;
+    padding-right: 1%;
+    font-size: 16px;
+    font-weight: 900;
+}
+.bgBlueBright{
+    background-color: #020842f1;
+    color: #FFE700;
+}
+.bgYellowBright{
+    background-color: #FFE700;
+    color: #020842f1;
+}
+/* put classes to ol li tags and use them in all projects
+check repl related assignments  */
