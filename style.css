@@ -6,12 +6,13 @@
    box-sizing: border-box; 
 }
 body{
-    background-color: #fff;
+    background-color: ;
     font-family: 'Roboto', sans-serif;
 }
 a{
-    text-decoration: none;
-    color: blue
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff
 }
 nav{
     height: 15vh;
@@ -48,24 +49,31 @@ nav ul li a{
     color: #020842f1;
     font-weight: bolder;
 }
+.active{
+    text-decoration: underline;
+}
 main{
     width: 50%;
     height: auto;
     margin: 1rem auto;
 }
-
 main img{
     width: 100%;
     height: auto;
     margin: 2rem auto;
+    background-color: #fff;
 }
-
+.main-text{
+    background-color:  #020842f1;
+    color: #FFE700;
+    padding: 1rem;
+}
 main h2{
     text-align: center;
     font-size: 24px;
     font-weight: 900;
     margin-bottom: 2rem;
-    color: #020842f1;
+    color: #FFE700;
 }
 
 main p{
@@ -87,16 +95,22 @@ article div{
 article h2{
     margin-bottom: 1.2rem;
 }
-
+.projects a, .blogs a{
+    font-weight: 700;
+    font-size: 1rem;
+}
 article p{
     font-size: 18px;
     font-weight: lighter;
 }
-
 .tech-stack, .blogs{
     background-color: #FFE700;
+    color:  #020842f1;
 }
-
+.projects{
+    background-color:  #020842f1;
+    color: #FFE700;
+}
 footer{
     background-color: #020842f1;
     color: #FFE700;
