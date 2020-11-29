@@ -25,9 +25,12 @@ nav h3{
     color: #FFE700;
 }
 nav ul{
-    position: relative;
-    top: 45px;
-    left: 400px;
+    /* position: relative; */
+    /* top: 100%;  */
+    /* left: 400px; */
+    /* left: 60%; */
+    margin-top: 5%;
+    margin-left: 50%;
 }
 nav li {
     list-style: none;
@@ -61,7 +64,7 @@ main img{
 .project{
     padding: 1rem;
     margin-top: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .project h2{
     margin-bottom: 1rem;
@@ -94,7 +97,6 @@ main img{
 }
 
 
-/* add projects of codecademy */
-/* style the play game and view code as buttons */
-/* put classes to ol li tags and use them in all projects
-check repl related assignments  */
+
+/* 
+check the  assignments and tick the points assignments  */

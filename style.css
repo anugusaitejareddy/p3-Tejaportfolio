@@ -30,15 +30,14 @@ nav h3{
     color: #FFE700;
 }
 nav ul{
-    position: relative;
-    top: 45px;
-    left: 420px;
+      margin-top: 5%;
+    margin-left: 50%;
 }
 nav ul li{
     display: inline;
     text-transform: uppercase;
     list-style: none;
-    margin-right: 2rem;
+    margin : 1rem;
     font-size: 16px;
     font-weight: 500;
 }
