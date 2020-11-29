@@ -79,7 +79,7 @@ main img{
     display: inline-block;
     color: #fff;
     text-decoration: underline;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-right: 1%;
     font-size: 16px;
     font-weight: 900;
@@ -92,5 +92,9 @@ main img{
     background-color: #FFE700;
     color: #020842f1;
 }
+
+
+/* add projects of codecademy */
+/* style the play game and view code as buttons */
 /* put classes to ol li tags and use them in all projects
 check repl related assignments  */
