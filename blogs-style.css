@@ -49,39 +49,41 @@ main {
 }
 main img{
     width: 100%;
+    height: 47vh;
+    margin-top: 1rem;
 }
-.projects-list ul{
+.blogs-list ul{
     width: 100%;
     margin: 2rem auto;
 }
-.projects-list li{
+.blogs-list li{
     list-style: none;
 }
-.project{
+.blog{
     padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
 }
-.project h2{
-    margin-bottom: 1rem;
-}
-.project small{
+.blog small{
     display: inline-block;
-    margin-bottom: 2%;
+    margin: 1% 0 2% 0;
     font-size: 14px;
 }
-.project p{
-    margin-bottom: 2%;
-    
+.blog p{
+    margin-bottom: 2%;  
+    font-size: 18px; 
 }
-.project a{
+.blog a{
     display: inline-block;
-    color: #fff;
     text-decoration: underline;
     margin-top: 5px;
-    padding-right: 1%;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 900;
+}
+.blog tag- {
+    border-radius: 30px;
+    padding: 4px;
+    font-size: 12px;
 }
 .bgBlueBright{
     background-color: #020842f1;
@@ -106,5 +108,3 @@ main img{
         text-align: center;
     }
 }
-
-

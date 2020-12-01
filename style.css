@@ -126,3 +126,22 @@ footer a{
     margin: 1rem;
     color: #FFE700;
 }
+
+@media only screen  and (max-width: 375px)
+{ 
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    nav ul{
+      position: relative;
+      right: 20%;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    main, article, footer {
+        width: 100%;
+    }
+}
