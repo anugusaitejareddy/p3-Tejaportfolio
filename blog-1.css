@@ -10,21 +10,22 @@ body{
 }
 nav{
     /* background-color: #020842f1; */
-    width: 50%;
+    width: 100%;
     margin: auto;
-    height: 15vh;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    /* height: 15vh; */
+    /* border-bottom-left-radius: 5px; */
+    /* border-bottom-right-radius: 5px; */
 }
 nav ul{
-    position: relative;
+    /* position: relative;
     top: 30%;
-    margin-left: 50%;
-    
+    margin-left: 50%;    */
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
 }
 nav li {
     list-style: none;
-    display: inline;
     margin: .5rem;
 }
 nav li a{
@@ -56,23 +57,21 @@ p{
     margin: 1.5rem auto;
 }
 
-@media only screen  and (max-width: 660px)
+@media only screen  and (max-width: 1080px)
 { 
     nav{
         width: 100%;
         height: auto;
     }
-    nav ul{
-      position: relative; 
-      right: 21%;
-      padding-bottom: 2px;
-    }
     nav ul li{
          display: block; 
-         text-align: center; 
+         text-align: left; 
     }
     main{
         width: 100%;
+    }
+    main p{
+        text-align: center;
     }
 }
 

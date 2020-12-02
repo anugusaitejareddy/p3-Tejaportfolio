@@ -23,6 +23,7 @@ nav h3{
     font-size: 24px;
     font-weight: 900;
     color: #FFE700;
+    letter-spacing: 2.5px;
 }
 nav ul{
     margin-top: 5%;
@@ -93,8 +94,9 @@ main img{
     background-color: #FFE700;
     color: #020842f1;
 }
-@media only screen  and (max-width: 660px)
+@media only screen  and (max-width: 1080px)
 { 
+
     nav{
         width: 100%;
         height: auto;
@@ -110,5 +112,11 @@ main img{
     }
     main{
         width: 100%;
+    }
+    .blog{
+        text-align: center;
+    }
+    tag-{
+        display: none;
     }
 }
