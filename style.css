@@ -38,11 +38,13 @@ nav h3{
     letter-spacing: 2.5px;
 }
 nav ul{
-    width: 50%;
-    height: 100%;
-    position: absolute;
+    /* width: 50%;
+    height: 100%; */
+    /* position: absolute;
     left: 69%;
-    top: 8.9%;
+    top: 8.9%; */
+    text-align: right;
+    margin-top: 2.5rem;
 }
 nav ul li{
     display: inline;
