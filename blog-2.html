@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog-1.css">
+    <title>Understanding Github Flow</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>||</li>
+                <li><a href="projects.html">Projects</a></li>
+                <li>||</li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="blog-title">
+            <p>Understanding Github Flow</p>
+        </div>
+        <small>November 30, 2020</small>
+        <img src="/images/github-flow.PNG" alt="">
+        <article>
+            <hr>
+            <br>
+            <p style="font-size: 18px;">Github is very important tool used in software development consisting of big teams. GitHub provides version control and Source code management (SCM) using Git. The following blog explains the flow of GitHub in everyday of software development</p>
+            <br><br>
+            <ol>
+                <li>
+                    <h3>Branching :</h3>
+                    <p>
+                        When we create a branch off the main branch you are making a copy or snapshot, of main as it was at the point in
+                        time.When working on project we will have bunch of different features/ideas which are ready to go and others which
+                        are not. Branching helps in managing this workflow. When we create a branch in our project, we are creating an
+                        environment where we can try out new ideas.
+                        Changes done on the branch wont affect the main branch, so we are free to experiment and commit changes and the
+                        branch
+                        wont be merged until it is reviewed.
+                    </p>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <h3>Adding Commits:</h3>
+                    <p>
+                        Saved changes are called commits. When we add, edit or delete a file we are making a commit and adding them to your
+                        branch. The process of adding
+                        commits branch keeps tracks of your progress as you work on a feature. Each creates a transparent history of work
+                        that others can understand what we have done. Each commit has an associated message which is a description of why a
+                        particular commit was made. Each commit is considered as a separate unit of change which lets us rollback the
+                        changes we made if a bug is found or
+                        if you decide to head in a different direction.
+                    </p>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <h3>Pull Request:</h3>
+                    <p>
+                        Pull requests initiate discussions about your commits.
+                        We can open a pull request at any point of development process
+                    </p>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <h3>Discuss and Review your code:</h3>
+                    <p>Code review and commits performed will be verified by the team. It can be considered as a peer code review. Main purpose of review is to check proper coding standing are followed and feature is working as expected and breaking the existing flow in project.</p>
+                </li>
+                <br>
+                <br>
+               <li>
+                    <h3>Deploy:</h3>
+                    <p>With GitHub we can deploy the changes from a branch to production for final testing before merging to main.</p>
+               </li>
+            <br>
+            <br>
+               <li>
+                    <h3>Merge:</h3>
+                    <p>Once the changes are verified by the team we can merge the changes into the mainline environment </p>
+               </li>
+            </ol>
+        </article>
+    </main> 
+</body>
+
+</html>
